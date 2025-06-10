@@ -1,6 +1,8 @@
 
 class AppImages {
   static final String appLogo = linkPng("logo");
+  static final String onboarding = linkPng("on_baording1");
+
   static final String onboarding1 = linkJpg("on_boarding");
   
 

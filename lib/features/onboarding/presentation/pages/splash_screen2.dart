@@ -262,7 +262,12 @@ class ContinueButton extends StatelessWidget {
         onPressed:
             isEnabled
                 ? () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => ChooseLoginScreen(),));
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ChooseLoginScreen(),
+                    ),
+                  );
                 }
                 : () {},
         style: ElevatedButton.styleFrom(

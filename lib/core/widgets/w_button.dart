@@ -1,3 +1,4 @@
+import 'package:barbar_app/core/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class WButton extends StatefulWidget {
@@ -92,12 +93,15 @@ class _WButtonState extends State<WButton> with SingleTickerProviderStateMixin {
             alignment: Alignment.center,
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [Color(0xFFF41671), Color(0xFFCF31BF)],
+                colors: [
+                  context.colors.primaryColor1,
+                  context.colors.primaryColor2,
+                ],
               ),
               color:
                   widget.isDisabled
                       ? widget.disabledColor ?? Colors.grey.shade400
-                      : widget.color ?? Color(0xFFF41671),
+                      : widget.color ?? context.colors.primaryColor1,
               borderRadius: widget.borderRadius,
             ),
             child:

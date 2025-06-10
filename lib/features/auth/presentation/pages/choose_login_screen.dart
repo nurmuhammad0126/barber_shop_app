@@ -4,6 +4,7 @@ import 'package:barbar_app/core/extensions/size_extensions.dart';
 import 'package:barbar_app/core/extensions/widget_extensions.dart';
 import 'package:barbar_app/core/widgets/w_button.dart';
 import 'package:barbar_app/features/auth/presentation/pages/login_screen.dart';
+import 'package:barbar_app/features/onboarding/presentation/pages/on_baording.dart';
 import 'package:flutter/material.dart';
 
 class ChooseLoginScreen extends StatefulWidget {
@@ -17,6 +18,17 @@ class _SplashScreen2 extends State<ChooseLoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(Icons.arrow_back, color: Colors.grey.shade500),
+        ),
+      ),
+      extendBodyBehindAppBar: true,
       body: Stack(
         children: [
           const BackgroundImage(),
@@ -95,9 +107,12 @@ class BottomWidget extends StatelessWidget {
               for (int i = 0; i < 3; i++)
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
+                    Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => LoginScreen()),
+                      MaterialPageRoute(
+                        builder: (context) => OnBoardingSceen(),
+                      ),
+                      (route) => false,
                     );
                   },
                   child: CircleAvatar(

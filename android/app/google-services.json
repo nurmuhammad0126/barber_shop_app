@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "197497570606",
+    "firebase_url": "https://chat-project-a27dd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chat-project-a27dd",
+    "storage_bucket": "chat-project-a27dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197497570606:android:56c08b529ce4332e2826bf",
+        "android_client_info": {
+          "package_name": "uz.flutterblog.chat_dasturi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-wfBCKf7U-KMWGPlvycNfcjqA_YtTCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197497570606:android:3a1a658530703c922826bf",
+        "android_client_info": {
+          "package_name": "uz.flutterblog.notification_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-wfBCKf7U-KMWGPlvycNfcjqA_YtTCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197497570606:android:1ab57a9fde489cd52826bf",
+        "android_client_info": {
+          "package_name": "uz.itwithnurmuhammad.barbar_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-wfBCKf7U-KMWGPlvycNfcjqA_YtTCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
